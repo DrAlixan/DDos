@@ -7,7 +7,7 @@ DDOS Strong Tool To Stop Servers And Sites
 ## installing
 
 - 1 . <code> pkg install python </code>
-- 2 . <code> git clone https:</code>
+- 2 . <code> git clone https://github.com/DrAlixan/DDos.git</code>
 - 3 . <code> cd alixan-DDOS </code>
 - 4 . <code> pip install -r installing.txt </code>
 - 5 . <code> python alixanDDOS.py -h  </code>
