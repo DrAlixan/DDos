@@ -304,7 +304,7 @@ def run():
     Level : {levels}
     Fake ip : {fake_ip}
        """)
-    for step in track(range(1500),description="Wait ...."):
+    for step in track(range(150000),description="Wait ...."):
         sleep(.001)
     os.system("clear")
     usage()
@@ -327,7 +327,7 @@ def run():
     		#tasking
             item = 0
             while True:
-                if (item>1800): # for no memory crash
+                if (item>18000): # for no memory crash maybe maybe 
                     item=0
                     time.sleep(.1)
                 item = item + 1
@@ -345,7 +345,7 @@ def run2():
     Level : {levels}
     Fake ip : {fake_ip}
        """)
-    for step in track(range(1500),description="Wait ...."):
+    for step in track(range(150000),description="Wait ...."):
         sleep(.001)
     os.system("clear")
     usage()
@@ -370,7 +370,7 @@ def run2():
     		#tasking
             item = 0
             while True:
-                if (item>1800): # for no memory crash
+                if (item>180000): # for no memory crash maybe
                     item=0
                     time.sleep(.1)
                 item = item + 1
