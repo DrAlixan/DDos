@@ -1,3 +1,4 @@
+
 import socket
 import sys,os
 from optparse import OptionParser
@@ -304,7 +305,7 @@ def run():
     Level : {levels}
     Fake ip : {fake_ip}
        """)
-    for step in track(range(150000),description="Wait ...."):
+    for step in track(range(10),description="Wait ...."):
         sleep(.001)
     os.system("clear")
     usage()
@@ -345,7 +346,7 @@ def run2():
     Level : {levels}
     Fake ip : {fake_ip}
        """)
-    for step in track(range(150000),description="Wait ...."):
+    for step in track(range(10),description="Wait ...."):
         sleep(.001)
     os.system("clear")
     usage()
