@@ -311,7 +311,7 @@ def run():
     usage()
     usage3()
     usage2()
-    for step in track(range(100),description="Starting ...."):
+    for step in track(range(10),description="Starting ...."):
         sleep(.1)
     while True:
         for i in range(int(levels)):
@@ -328,7 +328,7 @@ def run():
     		#tasking
             item = 0
             while True:
-                if (item>50000): # for no memory crash maybe maybe 
+                if (item>500): # for no memory crash maybe maybe 
                     item=0
                     time.sleep(.1)
                 item = item + 1
@@ -371,7 +371,7 @@ def run2():
     		#tasking
             item = 0
             while True:
-                if (item>500000): # for no memory crash maybe
+                if (item>500): # for no memory crash maybe
                     item=0
                     time.sleep(.1)
                 item = item + 1
