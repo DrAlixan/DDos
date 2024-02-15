@@ -328,7 +328,7 @@ def run():
     		#tasking
             item = 0
             while True:
-                if (item>500): # for no memory crash maybe maybe 
+                if (item>10): # for no memory crash maybe maybe 
                     item=0
                     time.sleep(.1)
                 item = item + 1
@@ -371,7 +371,7 @@ def run2():
     		#tasking
             item = 0
             while True:
-                if (item>500): # for no memory crash maybe
+                if (item>10): # for no memory crash maybe
                     item=0
                     time.sleep(.1)
                 item = item + 1
