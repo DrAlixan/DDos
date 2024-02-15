@@ -326,10 +326,10 @@ def run():
             t2.start()
             start = time.time()
     		#tasking
-            item = 0
+            item = 2000000
             while True:
-                if (item>10): # for no memory crash maybe maybe 
-                    item=0
+                if (item>100000): # for no memory crash maybe maybe 
+                    item=2000000
                     time.sleep(.1)
                 item = item + 1
                 q.put(item)
@@ -369,10 +369,10 @@ def run2():
             
             start = time.time()
     		#tasking
-            item = 0
+            item = 2000000
             while True:
-                if (item>10): # for no memory crash maybe
-                    item=0
+                if (item>100000): # for no memory crash maybe
+                    item=2000000
                     time.sleep(.1)
                 item = item + 1
                 q.put(item)
